@@ -45,7 +45,7 @@ public class GenelWebDriver {
         inputEmail.sendKeys("mustafa@gmail.com");
 
         WebElement password= driver.findElement(By.id("input-password"));
-        password.sendKeys("123456");
+        password.sendKeys("123456   ");
 
         WebElement loginBtn= driver.findElement(By.cssSelector("input[value='Login']"));
         loginBtn.click();

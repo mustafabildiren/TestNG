@@ -30,13 +30,13 @@ public class _02_AddressFunctionality extends GenelWebDriver {
        newAddress.click();
 
        WebElement firsName=driver.findElement(By.id("input-firstname"));
-       firsName.sendKeys("Didier");
+       firsName.sendKeys("Ahmet");
 
        WebElement lastname=driver.findElement(By.id("input-lastname"));
-       lastname.sendKeys("Drogba");
+       lastname.sendKeys("Demir");
 
        WebElement company=driver.findElement(By.id("input-company"));
-       company.sendKeys("Galatasaray");
+       company.sendKeys("Techno Study");
 
        WebElement address1=driver.findElement(By.id("input-address-1"));
        address1.sendKeys("21a London Road");
@@ -84,11 +84,11 @@ public class _02_AddressFunctionality extends GenelWebDriver {
 
        WebElement firsName=driver.findElement(By.id("input-firstname"));
        firsName.clear();
-       firsName.sendKeys("Wesley");
+       firsName.sendKeys("Mehmet");
 
        WebElement lastname=driver.findElement(By.id("input-lastname"));
        lastname.clear();
-       lastname.sendKeys("Sneijder");
+       lastname.sendKeys("Yılmaz");
 
        WebElement ctn=driver.findElement(By.cssSelector("input[type='submit']"));
        ctn.click();
